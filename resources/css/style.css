@@ -17,11 +17,19 @@ header {
   justify-content: center;
 }
 
-div.logo {
+.logo {
 
 }
 
-img {
+.container {
+
+}
+
+.logo img {
+
+}
+
+.logo h2, img {
 
 }
 
@@ -29,23 +37,7 @@ h2 {
 
 }
 
-div.banner {
-
-}
-
-div.container {
-
-}
-
-div.bannerbox {
-
-}
-
-h3{
-
-}
-
-h1 {
+.banner {
 
 }
 
@@ -53,6 +45,6 @@ nav {
 
 }
 
-ul.menu {
+nav ul {
 
 }
