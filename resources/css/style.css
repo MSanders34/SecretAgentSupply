@@ -62,6 +62,10 @@ nav {
 
 }
 
+li {
+  display: list-item;
+}
+
 nav li {
   display: inline;
 }
