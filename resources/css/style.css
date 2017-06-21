@@ -62,6 +62,6 @@ nav {
 
 }
 
-nav ul {
-
+nav li {
+  display: inline;
 }
