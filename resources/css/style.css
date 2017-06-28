@@ -34,11 +34,13 @@ header {
   width: 960px;
   margin: 0 auto;
   display: flex;
-
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list li {
   flex-basis: 100%;
+  padding: 0.75rem;
 }
 
 .logo img {
@@ -180,4 +182,69 @@ margin-top: 4rem;
 
 footer p {
   width: 960px;
+}
+
+@media only screen and (min-width: 1024px)  {
+  nav p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .list {
+    display: none;
+  }
+  nav p {
+    text-align: center;
+  }
+  .glasses {
+    display: none;
+  }
+  .product {
+    width: 47%;
+  }
+  .info {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .bannerbox h3 {
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+  .bannerbox h1 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .bannerbox {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin-top: 10rem;
+  }
+  .banner {
+    height: 15rem;
+  }
+  .watch {
+    display: none;
+  }
+  .product {
+    width: 90%;
+  }
+  .biz-info {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0px 0px;
+  }
+  .info {
+    width: 90%;
+    margin: 0.5em auto;
+  }
+  footer {
+    width: 100%;
+    text-align: center;
+  }
 }
