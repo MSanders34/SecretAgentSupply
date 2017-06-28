@@ -144,7 +144,7 @@ img{
   text-align: center;
   padding: 0.5em;
 }
-
+/*
 .info {
   display: flex;
   justify-content: space-around;
@@ -160,6 +160,28 @@ img{
   background-color: black;
   color: white;
   padding: 1rem 0 1rem 2rem;
+} */
+
+.business{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.biz-info{
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.info{
+  width: 35%;
+}
+
+.info .title{
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
 }
 
 footer {
@@ -170,6 +192,7 @@ justify-content: center;
 align-items: center;
 text-align: left;
 height: 5rem;
+margin-top: 4rem;
 }
 
 footer p {
