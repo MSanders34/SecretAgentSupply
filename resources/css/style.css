@@ -231,7 +231,11 @@ footer p {
     display: none;
   }
   .products {
+    margin: auto;
     width: 90%;
+  }
+  .product {
+    width: 100%;
   }
   .biz-info {
     flex-wrap: wrap;
